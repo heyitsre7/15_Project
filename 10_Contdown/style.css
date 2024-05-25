@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.giveaway {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.deadline {
+    margin-top: 20px;
+}
+
+.deadline-format {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.deadline-format div {
+    text-align: center;
+}
+
+h4 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+}
+
+h4 span {
+    display: block;
+    font-size: 3em;
+    color: #ff6347;
+}
+
+.deadline-format span {
+    font-size: 1em;
+    color: #333;
+}
+
+.expired {
+    color: red;
+    font-size: 1.5em;
+}
+
+#days, #hours , #minutes, #seconds{
+    background-color: rgba(7, 40, 227, 0.77);
+    color: white;
+    border-radius: 4px;
+    width: 50px;
+}

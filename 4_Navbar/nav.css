@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cac072;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.name{
+    
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+ 
+}
+
+.navbar-middle a, .navbar-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.navbar-middle a:hover, .img a:hover {
+    color: #ba0f0f;
+}
+
+.navbar-right img {
+    width: 24px;
+    height: 24px;
+}

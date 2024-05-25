@@ -1,0 +1,48 @@
+body {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.section-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    width: 800px;
+}
+
+.text {
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    height: 50%;
+}
+
+.tab-btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
