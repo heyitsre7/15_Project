@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery bud</title>
+    <title>Daily Goals</title>
     <link rel="shortcut icon" href="bag.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new.css">
 </head>
 <body>
     <section class="section-center">
-        <form class="grocery-form">
-            <p class="alert"></p>
-            <h3>Grocery Bud</h3>
+        <form class="goals-form">
+            <h3>Daily Goals</h3>
             <div class="form-control">
-                <input type="text" id="grocery" placeholder="e.g. eggs">
-                <button type="submit" class="submit-btn">add</button>
+                <input type="text" id="Goals" placeholder="Today's plan">
+                <button type="submit" class="submit-btn">submit</button>
             </div>
         </form>
-        <div class="grocery-container">
-            <div class="grocery-items"></div>
+        <div class="goals-container">
+            <div class="goals-list"></div>
             <button class="clear-btn">clear items</button>
         </div>
     </section>
-
-    <script src="list.js"></script>
+    <script src="new.js"></script>
 </body>
 </html>

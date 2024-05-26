@@ -1,0 +1,73 @@
+body {
+    background: #f1f5f8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.section-center {
+    width: 90vw;
+    max-width: 35rem;
+    margin: 5rem auto;
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.goals-form h3 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Goals {
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 0.25rem;
+    flex: 1;
+    margin-right: 0.5rem;
+}
+
+.submit-btn {
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.goals-container {
+    margin-top: 2rem;
+    display: none;
+}
+
+.goals-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goals-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.clear-btn {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
